@@ -1,0 +1,14 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  margin: 0;
+}
+
+.centered-container {
+  text-align: center;
+}
+.left-button {
+  float: left;
+}

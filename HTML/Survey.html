@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Customer Survey Form</title>
+    <link rel="stylesheet" type="text/css" href="./Styles.css" />
+  </head>
+  <style>
+    .container {
+      text-align: center;
+      margin-top: 100px;
+    }
+    .input-group {
+      display: inline-block;
+      margin-right: 10px;
+    }
+    .input-group label {
+      display: block;
+    }
+    .input-group input {
+      width: 200px;
+    }
+  </style>
+  <body style="background-color: blue">
+    <div class="container" style="background-color: antiquewhite">
+      <h1>Customer Survey Form</h1>
+      <form>
+        <div class="input-group" style="text-align: left">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <div class="input-group" style="text-align: left">
+          <label for="email">Email:</label>
+          <input type="text" id="email" email="email" required />
+        </div>
+        <div style="text-align: left">
+          <label>This is the first time you are using our product</label>
+        </div>
+        <div style="text-align: left">
+          <input type="radio" id="yes" name="yes" value="yes" />
+          <label for="yes">Yes</label>
+          <input type="radio" id="no" name="no" value="no" />
+          <label for="no">No</label>
+        </div>
+        <div style="text-align: left">
+          <label>Would you suggestion to you friends and colleague?</label>
+        </div>
+        <div style="text-align: left">
+          <input type="radio" id="yes" name="yes" value="yes" />
+          <label for="yes">Yes</label>
+          <input type="radio" id="no" name="no" value="no" />
+          <label for="no">No</label>
+        </div>
+        <div style="text-align: left">
+          <label>How satisfied are you with our company overall?</label>
+        </div>
+        <div style="text-align: left">
+          <input
+            type="radio"
+            id="satisfied"
+            name="satisfied"
+            value="satisfied"
+          />
+          <label for="yes">Satisfied</label>
+          <input
+            type="radio"
+            id="undecided"
+            name="undecided"
+            value="undecided"
+          />
+          <label for="undecided">Undecided</label>
+          <input
+            type="radio"
+            id="unsatisfied"
+            name="unsatisfied"
+            value="unsatisfied"
+          />
+          <label for="unsatisfied">Unsatisfied</label>
+        </div>
+        <div style="text-align: left">
+          <label>Do you have suggestion to improve our service?</label>
+        </div>
+        <div style="text-align: left" height="400px" width="200px">
+          <input type="text" />
+        </div>
+        <div style="text-align: left">
+          <input
+            type="button"
+            name="submit"
+            id="submit"
+            value="Submit"
+            style="background-color: blue"
+          />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
